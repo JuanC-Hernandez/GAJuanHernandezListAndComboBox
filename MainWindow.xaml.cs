@@ -74,5 +74,10 @@ namespace GAJuanHernandezListAndComboBox
             lblLastNames.Items.Refresh();
 
         }//btnRemoveStudentAtIndex_Click
+
+        private void lblLastNames_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            cmbFirstName.SelectedIndex = lblLastNames.SelectedIndex;
+        }//lblLastNames_SelectionChanged
     }//MainWindow : Window
 }//namespace
