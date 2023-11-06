@@ -30,5 +30,21 @@ namespace GAJuanHernandezListAndComboBox
             lblLastNames.ItemsSource = lName;//Populate list box
 
         }//MainWindow
+
+        private void btnDisplayFullName_Click(object sender, RoutedEventArgs e)
+        {
+            int firstNameIndex = cmbFirstName.SelectedIndex;
+
+            int lastNameIndex = lblLastNames.SelectedIndex;
+
+            string firstName = fName[firstNameIndex];
+
+            string lastName = lName[lastNameIndex];
+
+            string fullName = firstName + " " + lastName;
+
+            MessageBox.Show(fullName);//Display
+
+        }//btnDisplayFullName_Click
     }//MainWindow : Window
 }//namespace

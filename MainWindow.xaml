@@ -9,6 +9,7 @@
     <Canvas>
         <ComboBox x:Name="cmbFirstName" Canvas.Left="41" Canvas.Top="28" Width="120"/>
         <ListBox x:Name="lblLastNames" Height="122" Width="123" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="196" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnDisplayFullName" Content="Display Full Name" Canvas.Left="41" Canvas.Top="69" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Click="btnDisplayFullName_Click"/>
 
     </Canvas>
 </Window>
