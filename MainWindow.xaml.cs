@@ -21,11 +21,13 @@ namespace GAJuanHernandezListAndComboBox
     public partial class MainWindow : Window
     {
         List<string> fName = new List<string> { "Juan", "Carlos", "Gladis", "Gabriel", "Maria"};//Populated list
+        List<string> lName = new List<string> { "Hernandez", "Vasquez", "Molina", "Lopez", "Ruiz" };//Populated list
 
         public MainWindow()
         {
             InitializeComponent();
             cmbFirstName.ItemsSource = fName;//Populate combo box
+            lblLastNames.ItemsSource = lName;//Populate list box
 
         }//MainWindow
     }//MainWindow : Window

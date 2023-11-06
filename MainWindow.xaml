@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Canvas>
         <ComboBox x:Name="cmbFirstName" Canvas.Left="41" Canvas.Top="28" Width="120"/>
+        <ListBox x:Name="lblLastNames" Height="122" Width="123" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="196" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
     </Canvas>
 </Window>
