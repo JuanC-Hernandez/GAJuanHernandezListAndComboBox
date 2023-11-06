@@ -15,6 +15,7 @@
         <TextBox x:Name="txtfName" Canvas.Left="421" TextWrapping="Wrap" Canvas.Top="32" Width="120"/>
         <TextBox x:Name="txtlName" Canvas.Left="421" TextWrapping="Wrap" Canvas.Top="63" Width="120"/>
         <Button x:Name="btnAddNames" Content="Add Names" Canvas.Left="343" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Center" Width="198" Click="btnAddNames_Click"/>
+        <Button x:Name="btnRemoveStudentAtIndex" Content="Remove Students At Index" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Center" Width="162" Canvas.Left="20" Background="#FFFFBEBE" Click="btnRemoveStudentAtIndex_Click"/>
 
     </Canvas>
 </Window>
