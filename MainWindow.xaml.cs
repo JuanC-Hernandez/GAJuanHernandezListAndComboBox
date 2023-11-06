@@ -46,5 +46,19 @@ namespace GAJuanHernandezListAndComboBox
             MessageBox.Show(fullName);//Display
 
         }//btnDisplayFullName_Click
+
+        private void btnAddNames_Click(object sender, RoutedEventArgs e)
+        {
+            string firstName = txtfName.Text; 
+
+            string lastName = txtlName.Text; 
+
+            fName.Add(firstName); 
+            lName.Add(lastName); 
+
+            cmbFirstName.Items.Refresh();
+            lblLastNames.Items.Refresh();
+
+        }//btnAddNames_Click
     }//MainWindow : Window
 }//namespace
